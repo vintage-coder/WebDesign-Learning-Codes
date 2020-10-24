@@ -1,0 +1,120 @@
+body
+{
+	margin:0;
+	padding:0;
+	
+	background:url("C:\\Users\\Admin\\Desktop\\IF-1\\border-1.png");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+
+
+}
+
+
+.login2container
+{
+	background-color: #170505;
+	height: 450px;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	margin-bottom: 10%;
+	padding: 70px 30px;
+	color: #fff;
+	margin-left: 35%;
+}
+
+.login2container p#staff{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: solid;
+}
+
+#main
+{
+	margin: 0;
+	padding: 0;
+	background-color: #101010c7;
+}
+
+#login
+{
+	margin: 0;
+	padding: 30px 50px;
+	background-color: #101010c7;
+	border: 1px solid #101010c8;
+}
+
+#login input[type="text"],input[type="password"]
+{
+	height: 40px;
+	background-color: #101010c7;
+	color: #fff;
+	justify-content: center;
+	border-style: none;
+}
+
+#login input[type="text"]
+{
+	text-align: left;
+}
+
+#login input[type="password"]
+{
+	text-align: left;
+}
+
+#login input[type="text"]::placeholder
+{
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+
+}
+#login input[type="password"]::placeholder
+{
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+#main input[type="submit"]
+{
+	margin: 10px;
+	margin-left: 100px;
+	position: sticky;
+	padding: 20px 100px;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: #089696;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	
+	width: 50%;
+	
+}
+
+#main input[type="submit"]:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.login2container input {
+	width: 100%;
+	margin-bottom: 20px;	
+}
+
+
+#main a{
+	color: #fff;
+	margin-left: 60px;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 10px 10px;
+	text-decoration: none;
+}
